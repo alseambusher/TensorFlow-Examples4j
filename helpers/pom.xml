@@ -2,11 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>tfexamples4j</artifactId>
+        <groupId>com.alse</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.alse</groupId>
-    <artifactId>tf4j-introduction</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>tf4j-helpers</artifactId>
 
     <build>
         <plugins>
@@ -31,11 +34,6 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.6.4</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alse</groupId>
-            <artifactId>tf4j-helpers</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

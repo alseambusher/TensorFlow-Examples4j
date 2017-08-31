@@ -5,7 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.alse</groupId>
-    <artifactId>tf4j-introduction</artifactId>
+    <artifactId>tfexamples4j</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <build>
@@ -32,10 +33,12 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.6.4</version>
         </dependency>
-        <dependency>
-            <groupId>com.alse</groupId>
-            <artifactId>tf4j-helpers</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
+
+
+    <modules>
+        <module>1_Introduction</module>
+        <module>helpers</module>
+    </modules>
+
 </project>
